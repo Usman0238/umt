@@ -1,0 +1,50 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  color: #00b0fc;
+
+  background-image: url("backimg.jpg");
+}
+
+.background {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url("backimg.jpg");
+  height: 100%;
+}
+.maindiv{
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f4f9f960;
+  padding: 2%;
+}
+.textalin{
+  text-align: left;
+  font-weight: bold;
+}
+
+::placeholder{
+  color: #00b0fc80 !important;
+}
+.form-control{
+  background-color: #91c78830;
+  border-color: #fff;
+  border-width: 2px;
+}
+th {
+  border: solid;
+  background-color: #00b0fc;
+  color: #fff;
+}
+
+.form-control{
+  color: #00b0fc !important;
+}
